@@ -6,6 +6,7 @@ html {
 body {
   font-size: 1.6rem;
   font-family: "Nunito Sans", sans-serif;
+  overflow-x: hidden;
 }
 
 .hero-content {
@@ -18,9 +19,64 @@ body {
   font-weight: 900;
 }
 
-.products-heading {
+.heading-font-size {
   font-size: 35px;
-  margin-top: 13.8rem;
+}
+
+.curve-section {
+  background-color: #F8FAFC;
+}
+
+.position-top {
+  top: -22rem;
+}
+
+.secondary-section {
+  position: relative;
+}
+
+.curve-btn {
+  top: 10rem;
+  left: 12rem;
+}
+
+.curve-bg {
+  background-image: url("/images/Vector 1.svg");
+  min-height: 40rem;
+}
+
+.card {
+  border-radius: 19px;
+  background-color: #FFFFFF;
+  -webkit-filter: drop-shadow(0 3px 6px #00000029);
+          filter: drop-shadow(0 3px 6px #00000029);
+}
+
+.user-heading {
+  margin: 18rem 0 10rem;
+}
+
+.curve-reverse {
+  background-image: url("/images/Vector 1.svg");
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  min-height: 50rem;
+}
+
+.working-culture {
+  top: -35rem;
+}
+
+.atwork {
+  max-height: 18.8rem;
+}
+
+.our-benefits {
+  -webkit-transform: translateY(-35rem);
+          transform: translateY(-35rem);
+}
+
+.products-heading {
   margin-bottom: 10.5rem;
 }
 
@@ -43,14 +99,23 @@ body {
           filter: drop-shadow(0 16px 48px #00000029);
 }
 
+.blogs {
+  -webkit-transform: translateY(-20rem);
+          transform: translateY(-20rem);
+}
+
 .blog-heading {
-  font-size: 35px;
-  margin: 18.9rem 0 7.6rem;
+  margin-bottom: 7.6rem;
+}
+
+.blog-post-cards {
+  bottom: -5rem;
+  left: 7rem;
 }
 
 .blog-content {
   margin-left: 5.9rem;
-  margin-right: 12.4rem;
+  margin-right: 9rem;
   padding-top: 4rem;
   padding-left: 4.3rem;
   background-color: #F8FAFC;
@@ -59,21 +124,60 @@ body {
   border-radius: 42px;
 }
 
+.padding-reset {
+  padding: 0;
+}
+
+.margin-reset {
+  margin: 0;
+}
+
 .star-logo {
-  max-height: 64px;
-  max-width: 64px;
+  max-height: 6.4rem;
+  max-width: 6.4rem;
 }
 
 .star-bookmark-logo {
-  max-height: 15px;
-  max-width: 15px;
+  max-height: 1.5rem;
+  max-width: 1.5rem;
 }
 
 .blog-card {
+  min-width: 24rem;
+  max-width: 28rem;
   border-radius: 30px;
+  padding: 2rem;
   -webkit-filter: drop-shadow(0 16px 48px #00000029);
           filter: drop-shadow(0 16px 48px #00000029);
   background-color: #FFFFFF;
+}
+
+.our-clients {
+  margin: 15rem 0 18rem;
+}
+
+.smart-banner {
+  max-height: 9rem;
+}
+
+.companies {
+  margin-top: 14rem;
+}
+
+footer {
+  min-height: 36rem;
+  background-color: #000000;
+  border: 1px solid #707070;
+}
+
+.footer-content {
+  bottom: 4rem;
+}
+
+@media screen and (max-width: 1250px) {
+  .secondary-section {
+    top: 5rem;
+  }
 }
 
 @media screen and (max-width: 1024px) {
@@ -83,6 +187,18 @@ body {
   }
   .hero-img {
     display: none;
+  }
+  .curve-bg {
+    display: none;
+  }
+  .curve-section {
+    background-color: #FFFFFF;
+  }
+  .curve-reverse {
+    display: none;
+  }
+  .working-culture {
+    top: 0;
   }
   .product-names {
     margin-left: 5rem;
