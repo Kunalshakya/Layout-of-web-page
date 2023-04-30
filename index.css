@@ -40,7 +40,7 @@ body {
 }
 
 .curve-bg {
-  background-image: url("/images/Vector 1.svg");
+  background-image: url("./images/Vector 1.svg");
   min-height: 40rem;
 }
 
@@ -55,7 +55,7 @@ body {
 }
 
 .curve-reverse {
-  background-image: url("/images/Vector 1.svg");
+  background-image: url("./images/Vector 1.svg");
   transform: rotate(180deg);
   min-height: 50rem;
 }
