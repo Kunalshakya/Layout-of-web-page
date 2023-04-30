@@ -175,8 +175,9 @@ footer {
 @media screen and (max-width: 1250px) {
 
     .secondary-section {
-        top: 5rem;
+        top: -6rem;
     }
+
   }
 
 @media screen and (max-width: 1024px) {
@@ -188,6 +189,19 @@ footer {
 
     .hero-img {
         display: none;
+    }
+
+    .secondary-section {
+        top: 6rem;
+    }
+
+    .blocks {
+        margin: 0 3rem 0;
+        gap: 3rem;
+    }
+
+    .card {
+        margin: 0 !important;
     }
 
     .curve-bg {
@@ -204,8 +218,16 @@ footer {
     }
 
     .working-culture {
-        top: 0;
+        top: 7rem;
     } 
+
+    .block {
+        margin: 0 0 3rem 0;
+    }
+
+    .our-benefits {
+        transform: translateY(0);
+    }
 
     .product-names {
         margin-left: 5rem;
